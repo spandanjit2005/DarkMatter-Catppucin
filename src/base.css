@@ -30,8 +30,8 @@ button {
 	--dm-white: 255, 255, 255;
 	/* BlurpleRecolor */
 	--accentcolor: var(--accent);
-	--vaccentcolor-hover: rgb(var(--accent));
-	--vaccentcolor-active: rgb(var(--accent));
+	--vaccentcolor-hover: var(--accent);
+	--vaccentcolor-active: var(--accent);
 }
 
 :not(div[class*="userProfile"][class*="unThemed"]).theme-dark,
