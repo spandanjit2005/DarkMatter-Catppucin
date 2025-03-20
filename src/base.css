@@ -66,14 +66,14 @@ div[class*="userProfile"][class*="unThemed"].theme-light {
 	--interactive-hover: rgba(var(--dm-white), 0.75);
 	--interactive-active: rgba(var(--dm-white), 1);
 	--deprecated-card-bg: rgba(var(--dm-white), 0.05);
-	--text-link: rgba(var(--accent), 1);
-	--focus-primary: rgba(var(--accent), 1);
+	--text-link: var(--accent);
+	--focus-primary: var(--accent);
     --modal-background: var(--background-solid);
     --modal-footer-background: var(--background-solid-darker);
 }
 
 ::selection {
-	background-color: rgba(var(--accent-alt), 0.5);
+	background-color: var(--accent-alt);
 }
 
 
@@ -86,7 +86,7 @@ div[class*="userProfile"][class*="unThemed"].theme-light {
  ::-webkit-scrollbar-thumb {
 	border-radius: 8px !important;
 	border: 3px solid transparent !important;
-	background-color: rgba(var(--accent-alt), 1) !important;
+	background-color: var(--accent-alt) !important;
 }
 
  ::-webkit-scrollbar-track {
